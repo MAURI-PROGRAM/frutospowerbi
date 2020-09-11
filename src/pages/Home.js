@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/Home.css';
-import frutos from '../images/frutos.svg';
+import finanzas from '../images/g-finanzas.svg';
 
 export default class Home extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div className="container">
         <div className="row">
           <div className="Home__col col-12 col-md-4">
-            <h1>Informe de ventas</h1>
+            <h1>Informe Financiero  SEPS</h1>
             <Link className="btn btn-warning" to="/dashboard">
               Visualizar
             </Link>
@@ -18,7 +18,7 @@ export default class Home extends Component {
 
           <div className="Home__col d-none d-md-block col-md-8">
             <img
-              src={frutos}
+              src={finanzas}
               alt="Astronauts"
               className="img-fluid p-4"
             />
